@@ -1,0 +1,116 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg)
+}
+
+.text {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+.brush {
+    background-color: mediumspringgreen;
+}
+
+.container {
+    flex-basis: 30%;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+    width: 250px;
+  }
+
+/*
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+
+.price {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+.subhead {
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: center;
+}
+
+.foot1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-left: 0;
+    margin-right: 0;*/
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: auto;
+}
+
+.list {
+    display: inline;
+    list-style: none;
+    flex-basis: 10rem;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 4px;
+    margin: auto auto 15px auto;
+}
+
+html {
+    margin: 0 15% 0 15%;
+}
+
+
+ul {
+    padding: 0; /*added due to ul defaulting to 40px padding on left*/
+}
+
